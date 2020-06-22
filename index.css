@@ -1,0 +1,388 @@
+body{
+	background-color: #f7f7f7;
+}
+.myentireheader{
+	padding-bottom: 30px
+}
+
+.heroimage {
+	display: none;
+}
+
+.herotext{
+	margin: 10px 20px;
+	padding: 10px;
+}
+
+.herotext h1{
+	color: #fd9800;
+	/*font-weight: bold;*/
+}
+
+.searchbtn input{
+	position: relative;
+	border: 1px solid #8080801f;
+	background-color: inherit;
+}
+.searchicon{
+	font-size: 20px;
+	position: absolute;
+	top: 18px;
+	left: 88%;
+}
+
+
+.herotext p{
+	line-height: 40px;
+}
+
+.whorowtext{
+	padding-bottom: 30px;
+}
+
+.whorow{
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+
+.whotext p{
+	line-height: 35px;
+}
+.whorow img{
+	width: 100%;
+	height: 300px;
+}
+
+.hidelater{
+	display: none;
+}
+
+.corevaluesinner{
+	margin-bottom: 30px;
+}
+.numberscont{
+	background-color: #8080801f;
+	margin-bottom: 90px;
+	padding: 40px 0;
+}
+
+.number-items{
+	margin-bottom: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.corevalues{
+	width: 80%;
+	padding-bottom: 40px;
+}
+
+.presscontmain{
+	display: none;
+}
+
+.presscontmain{
+	width: 80%;
+}
+
+.aboutusimg img{
+	width: 100%;
+	/*order:-1;*/
+}
+
+.mdtext p{
+	line-height: 30px;
+}
+
+.mdhide2{
+	display: none;
+}
+
+.fagscallscont{
+	padding-top: 40px;
+	width: 90%;
+	margin-bottom: 90px;
+}
+.fagscalls{
+	width: 100%;
+	padding: 5px;
+	display: block;
+}
+
+	.fagscallsitem{
+		background-color: white;
+		/*border: 1px solid grey;*/
+		box-shadow: -3px 5px 5px 5px #c4c4c4;
+		padding: 20px 30px;
+		border-radius: 10px;
+		margin-bottom: 30px;
+		display: flex;
+	}
+
+.callicon{
+	font-size: 25px;
+	color: grey;
+	margin-right: 5px;
+}
+
+footer{
+	background-color: #444444;
+	padding: 20px;
+}
+
+.hidefooternav{
+	display: none;
+}
+
+
+.copyzut{
+	color: white;
+}
+
+.hidewho2{
+	display: none;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 2000px){
+	.myspace{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
+
+	.topborder{
+		display: flex;
+		justify-content: space-around;
+		margin-left: 100px;
+	}
+
+	.topborderitems{
+		margin-left: 90px;
+	}
+
+	.hideme{
+		display: none;
+	}
+	.hidewho{
+		display: none;
+		border:1px solid red;
+	}
+	.mdhide{
+		display: none;
+		border:1px solid red;
+	}
+
+	.mdhide2{
+		display: block;
+	}
+	.hidelater{
+		display: flex;
+	}
+
+	.colhidewho{
+		display: none;
+	}
+	.searchbtn input{
+		border: none;
+		border: 1px solid #8080801f;
+		background-color: inherit;
+		padding: 5px 15px;
+		border-radius: 10px;
+		position: relative;
+	}
+
+	.hidewho2{
+		display: block;
+	}
+
+	.hidewho{
+		display: none;
+	}
+	.heroimage{
+		display: block;
+	}
+
+	.heroimage img{
+		width:85%;
+		height: 600px;
+		position: relative;
+
+	}
+
+	.herotext{
+		width: 40%;
+		position: absolute;
+		top: 150px;
+		left: 3%;
+		background-color: white;
+		box-shadow: -5px 0 5px grey;
+		border-radius: 20px;
+		border:none;
+		padding: 38px 45px;
+	}
+
+	
+	.whoweare{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 90px;
+		/*margin-bottom: 50px;*/
+	}
+	.whorowtext{
+		display: block;
+	}
+	.whoimg{
+		height: 100%;
+	}
+
+	.whotext{
+		padding: 10px;
+	}
+
+	.whotext p{
+		line-height: 35px;
+	}
+	.whoimg img{
+		width: 100%;
+		height: 400px;
+	}
+
+	.numberscont{
+		background-color: #8080801f;
+		margin-bottom: 90px;
+		padding: 0;
+	}
+	.numbers{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 10px 0;
+	}
+
+	.number-items{
+		margin-bottom: 0;
+	}
+
+	.corevalues{
+		margin-bottom: 90px;
+		padding: 20px 10px;
+	}
+
+	.corevalues-items{
+		display: flex;
+		justify-content: space-around;
+		margin-top: 30px;
+	}
+
+	.corevaluesinner{
+		padding: 10px;
+		width: 80%;
+	}
+
+	.corevaluesinner2{
+		padding-top: 20px;
+		height: 225px;
+	}
+
+	.presscontmain{
+		background-color:#8080801f; 
+		margin-bottom: 90px;
+		display: block;
+		width: 100%;
+	}
+	.presscont{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 20px 0;
+	}
+
+	.seepressbtn{
+		padding: 10px 20px;
+		background-color: #fd9800;
+		color: white;
+		font-weight: bold;
+	}
+
+	/*.aboutusimg{
+		border: 1px solid red;
+	}*/
+
+	.aboutusimg img{
+		width: 90%;
+		height: 500px;
+	}
+
+	.mdtext{
+		padding: 20px;
+	}
+
+	.mdtext p{
+		line-height: 30px;
+	}
+
+	.fagscallscont{
+		padding-top: 40px;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 90px;
+	}
+	.fagscalls{
+		margin: 20px;
+		width: 70%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.fagscallsitem{
+		background-color: white;
+		box-shadow: -3px 5px 5px 5px #c4c4c4;
+		padding: 20px 30px;
+		border-radius: 10px;
+		display: flex;
+		/*justify-content: */
+	}
+
+	footer{
+		background-color: #444444;
+		padding: 20px 20px 0px 20px;
+	}
+
+	.footerinner{
+		display: flex;
+		justify-content: space-between;
+	}
+	.hidefooter{
+		display: none;
+	}
+	.footerinnernav{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.footerinnernav p{
+		margin-right: 30px;
+	}
+
+	.footerinnernav p a{
+		color: grey;
+	}
+
+	.footerinnernav p a:hover{
+		text-decoration: none;
+	}
+	.footerinnernav .home a,
+	.copyrigt{
+		color: white;
+	}
+
+	.hidefooternav{
+		display: flex;
+	}
+}
